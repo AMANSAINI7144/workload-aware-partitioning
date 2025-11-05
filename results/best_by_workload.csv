@@ -1,0 +1,4 @@
+workload,best_strategy,best_mean_latency_ms,best_mean_partitions_touched
+W1,hash_user,0.0005966,1.0
+W2,range_pop,5.829587666666667,1.2933333333333332
+W3,round_robin,0.017411999999999997,1.0

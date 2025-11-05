@@ -1,0 +1,17 @@
+=== Evaluation Summary (P=4) ===
+
+Best strategy per workload (by mean latency):
+  - W1: hash_user  (mean latency = 0.001 ms; avg partitions touched = 1.00)
+  - W2: range_pop  (mean latency = 5.830 ms; avg partitions touched = 1.29)
+  - W3: round_robin  (mean latency = 0.017 ms; avg partitions touched = 1.00)
+
+Load balance (Gini; lower is more balanced):
+  - round_robin: Gini = 0.0000
+  - hash_user: Gini = 0.0183
+  - range_pop: Gini = 0.5617
+  - group_book: Gini = 0.6334
+
+Tables written:
+  - results/summary_by_strategy_workload.csv
+  - results/best_by_workload.csv
+  - results/load_balance.csv

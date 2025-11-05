@@ -1,0 +1,11 @@
+seed: 42
+partitions: 4
+cost_model:
+  scan_ms_per_1k: 0.05
+  network_ms_per_extra_partition: 2.0
+filters:
+  min_user_interactions: 5
+  min_book_interactions: 5
+range_partition:
+  attribute: popularity   # or rating
+  bins: 4

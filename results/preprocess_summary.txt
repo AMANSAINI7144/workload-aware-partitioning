@@ -1,0 +1,36 @@
+Preprocess summary - generated: 2025-11-05T15:15:27.017834Z
+Random seed: 42
+
+Rows: 996530
+Unique users: 80699
+Unique books: 32930
+
+Rating stats:
+count    996530.000000
+mean          4.236901
+std           1.109207
+min           1.000000
+25%           4.000000
+50%           5.000000
+75%           5.000000
+max           5.000000
+Name: rating, dtype: float64
+
+Popularity stats (per interaction row):
+count    996530.000000
+mean        415.659119
+std         702.856795
+min           5.000000
+25%          24.000000
+50%         112.000000
+75%         553.000000
+max        3564.000000
+Name: popularity, dtype: float64
+
+Head:
+       user_id    book_id  rating  timestamp  user_idx  book_idx  popularity
+A38L3I3R3VRPTT 0802135331     5.0 1072915200    596463     63854          25
+A2F3M93RRLFQNJ 1401207863     3.0 1181347200    378747    102343           7
+A2GEZGYCE5EU8N B000H1IHA2     4.0 1110844800    388487    186976         160
+A1X2I7XRHVJMTA B00085HXN4     5.0 1295827200    245291    171005         158
+A3K2ZXEWESOQ6P B000QU75SO     5.0 1318550400    681592    221249          98
